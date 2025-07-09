@@ -18,4 +18,12 @@ export default defineConfig({
     }),
     presetTypography(),
   ],
+  
+  theme: {
+    colors: {
+      togBlue: '#0D198A',    // Base background
+      togLime: '#C7FF00',    // Accent lime green
+      togLight: '#E1E9FF',   // Optional soft white for text/cards
+    },
+  },
 });
